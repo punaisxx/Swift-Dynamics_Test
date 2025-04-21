@@ -56,3 +56,7 @@ class Solution:
             if less_than_million > 0:
                 result += conver_number_to_thai(less_than_million)
             return result
+        
+s = Solution()
+print(s.number_to_thai(101))
+print(s.number_to_thai(-1))

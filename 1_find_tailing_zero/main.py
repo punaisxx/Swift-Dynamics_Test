@@ -32,3 +32,7 @@ class Solution:
             count += 1
             fact //= 10
         return count
+    
+s = Solution()
+print(s.find_tailing_zeroes(7))
+print(s.find_tailing_zeroes(-10))

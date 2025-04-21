@@ -33,3 +33,7 @@ class Solution:
             for _ in range(div):
                 result += syms[i]
         return result
+
+s = Solution()
+print(s.number_to_roman(101))
+print(s.number_to_roman(-1))
