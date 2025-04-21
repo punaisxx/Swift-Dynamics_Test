@@ -20,4 +20,13 @@ output = list can not blank
 class Solution:
 
     def find_max_index(self, numbers: list) -> int | str:
-        pass
+        if not numbers:
+            return "list can not blank"
+        
+        max = float('-inf')
+        position = -1
+        for i in range(len(numbers)):
+            if numbers[i] > max:
+                max = numbers[i]
+                position = i
+        return position
